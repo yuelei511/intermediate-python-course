@@ -10,7 +10,7 @@ def main():
   for i in range(0, player):
     roll_sum = 0
     for j in range(0, dice_num):
-      roll = random.randint(1, 6)
+      roll = random.randint(1, dice_size)
       roll_sum += roll
     player_rolls.append(roll_sum)
     print(f'player{i+1} rolled  a sum of {roll_sum}')
